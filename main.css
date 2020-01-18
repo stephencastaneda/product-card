@@ -1,5 +1,8 @@
 body{
-    background-color: seagreen;
+    background-color: #5f4b8bff;
+    display:flex;
+    flex-wrap:wrap;
+    color: #e69a8dff
     
 }
 .card{
@@ -17,8 +20,8 @@ body{
 }
 
 .card img{
-    max-width: width 200px;
-    align: center; 
+    width: 200px; 
+    height: 175px; 
     
     
 }
@@ -26,11 +29,12 @@ body{
 h2{
     border: 1px;
     border-style:solid;
-    border-color:black;
+    border-color: #e69a8dff;
     text-align: center;
 }
 .desc{
     text-align: justify;
+    padding-top: 20px;
 }
 .size {
     font-weight: bold;
@@ -46,4 +50,10 @@ h2{
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-  }
+}
+#avail {
+    color: yellow;
+    display: flex;
+    flex: stretch;
+    background: grey;
+}
