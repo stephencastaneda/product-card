@@ -1,8 +1,8 @@
 body{
-    background-color: #5f4b8bff;
+    background-color: #603F83FF;
     display:flex;
     flex-wrap:wrap;
-    color: #e69a8dff
+    color: #C7D3D4FF;
     
 }
 .card{
@@ -21,15 +21,21 @@ body{
 
 .card img{
     width: 200px; 
-    height: 175px; 
-    
-    
+    height: 175px;    
 }
+
+.card:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
  
 h2{
     border: 1px;
     border-style:solid;
-    border-color: #e69a8dff;
+    border-color: #603F83FF;
     text-align: center;
 }
 .desc{
@@ -56,4 +62,11 @@ h2{
     display: flex;
     flex: stretch;
     background: grey;
+}
+.title {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    font-family: florence;
 }
